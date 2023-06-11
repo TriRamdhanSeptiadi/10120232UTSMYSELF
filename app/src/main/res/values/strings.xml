@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Self Apps</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dailyacitivity_name">Dailyactivity</string>
+    <string name="Friend_name">FriendList</string>
+    <string name="Gallery_name">Gallery</string>
+    <string name="Music_name">Music</string>
+</resources>

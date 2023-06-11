@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="4dp"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#767A80"
+        android:background="#767A80"
+        android:padding="8dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/img_item_photo_friend"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_centerInParent="true"
+            tools:src="@tools:sample/avatars"/>
+
+        <TextView
+            android:id="@+id/tv_item_name_friend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_below="@id/img_item_photo_friend"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="@string/Friend_name"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
